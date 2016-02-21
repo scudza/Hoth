@@ -1,4 +1,11 @@
 <resources>
 	<string name="app_name">Cash26</string>
 	<string name="title_activity_main">Map</string>
+	<string name="location_permission_justification">Enable location permission to find ATM\'s</string>
+	<string name="location_permission_justification_title">Permission needed</string>
+
+	<string name="your_location_unavailable">Location unavailable</string>
+	<string name="no_internet">Internet connection unavailable</string>
+	<string name="no_atms_in_your_area">No ATM\'s in your area</string>
+	<string name="server_error">Server error</string>
 </resources>

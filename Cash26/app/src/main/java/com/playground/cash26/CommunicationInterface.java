@@ -13,6 +13,6 @@ public interface CommunicationInterface {
 	Call<Bank[]> getBanks(@Query("map_bounds") String bounds);
 
 	@GET("https://maps.googleapis.com/maps/api/directions/json?")
-	Call<Routes[]> getDirections(@Query("origin") String OrigLatLng,@Query("destination") String destLatLng,@Query("key") String key);
+	Call<DirectionsResponse> getDirections(@Query("origin") String OrigLatLng,@Query("destination") String destLatLng,@Query("key") String key);
 
 }
